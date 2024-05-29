@@ -1,0 +1,14 @@
+.app {
+  font-family: Arial, sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+button {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}

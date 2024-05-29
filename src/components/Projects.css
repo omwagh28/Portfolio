@@ -1,0 +1,54 @@
+/* Container for all projects */
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #0a192f;
+    color: #ccd6f6;
+  }
+  
+  /* Each individual project card */
+  .project-card {
+    background-color: #112240;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px -15px rgba(2, 12, 27, 0.7);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Project title */
+  .project-card h3 {
+    color: #64ffda;
+    margin-bottom: 10px;
+  }
+  
+  /* Project description */
+  .project-card p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Links for GitHub and Demo */
+  .project-card a {
+    display: inline-block;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    background-color: #64ffda;
+    color: #0a192f;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-card a:hover {
+    background-color: #52e0c4;
+  }
+  
+  /* Hover effect on project card */
+  .project-card:hover {
+    transform: scale(1.05);
+  }
+  
