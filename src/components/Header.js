@@ -4,7 +4,6 @@ import './Header.css';
 const Header = () => {
   return (
     <header>
-      <div className="logo">DS</div>
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>

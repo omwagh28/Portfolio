@@ -1,7 +1,12 @@
 /* Container for the resume section */
+*{
+  padding: 0;
+  margin: 0;
+}
 .resume-container {
-    padding: 50px;
+    padding: 0px;
     background-color: #0a192f;
+    height: 80vh;
     color: #ccd6f6;
     text-align: center;
   }

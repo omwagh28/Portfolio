@@ -12,12 +12,19 @@ function App() {
 
   return (
     <div className="app">
-      <Navbar setSection={setSection} />
+      {/* <Navbar setSection={setSection} />
       {section === 'home' && <Home />}
       {section === 'about' && <About />}
       {section === 'projects' && <Projects />}
       {section === 'resume' && <Resume />}
+      <Footer /> */}
+      <Navbar />
+      <Home />
+      <About/>
+      <Projects />
+      <Resume />
       <Footer />
+
     </div>
   );
 }
