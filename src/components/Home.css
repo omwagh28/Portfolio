@@ -1,40 +1,42 @@
 .home-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 80vh;
-    background-color: #0a192f;
-    color: #ccd6f6;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(313, 21%, 8%);
+  color: #ccd6f6;
+  text-align: center;
+  padding-left: 100px;
+}
+
+.home-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.home-container .name {
+  color: #64ffda;
+  font-size: 3rem;
+}
+
+.home-container .description {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.home-container .cursor {
+  border-left: 2px solid #64ffda;
+  animation: blink 0.7s step-end infinite;
+}
+
+@keyframes blink {
+  from, to {
+    border-color: transparent;
   }
-  
-  .home-container h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
+  50% {
+    border-color: #64ffda;
   }
-  
-  .home-container .name {
-    color: #64ffda;
-    font-size: 3rem;
-  }
-  
-  .home-container .description {
-    font-size: 1.5rem;
-    margin-top: 10px;
-  }
-  
-  .home-container .cursor {
-    border-left: 2px solid #64ffda;
-    animation: blink 0.7s step-end infinite;
-  }
-  
-  @keyframes blink {
-    from, to {
-      border-color: transparent;
-    }
-    50% {
-      border-color: #64ffda;
-    }
-  }
-  
+}
+
+

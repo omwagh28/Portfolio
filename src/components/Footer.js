@@ -3,8 +3,8 @@ import './Footer.css';
 
 const Footer = () => {
   return (
-    <footer className="footer-container">
-      <p>&copy; 2024 Devansh Sahni. All Rights Reserved.</p>
+    <footer className="footer-container" id='footer'>
+      <p>&copy; 2024 om waghchavare. All Rights Reserved.</p>
       <div className="social-links">
         <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
         <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>

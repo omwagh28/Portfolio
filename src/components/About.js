@@ -3,10 +3,11 @@ import './About.css';
 
 const About = () => {
   return (
-    <section className="about-container">
+    <section className="about-container" id='about'>
+      <h1 class="title">About </h1>
       <h1>Get to know me!</h1>
       <p>
-        Hi, my name is <span className="highlight">Devansh Sahni</span> and I am from New Delhi, India. I'm a <span className="highlight">MERN stack web developer</span> and a final year college student pursuing BTech in CSE.
+        Hi, my name is <span className="highlight">Om Waghchavare</span> and I am from New Delhi, India. I'm a <span className="highlight">MERN stack web developer</span> and a final year college student pursuing BTech in CSE.
       </p>
       <p>
         I have done an internship as a <span className="highlight">software developer</span> at GoalFi which is a fintech startup. I love to create original projects with beautiful designs, you can check out some of my work in the projects section.

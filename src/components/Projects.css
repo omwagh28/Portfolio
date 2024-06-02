@@ -1,4 +1,14 @@
-/* Container for all projects */
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 120vh;
+}
+
+.titl{
+  font-size: 40px;
+}
 .projects-container {
     display: flex;
     justify-content: space-around;
