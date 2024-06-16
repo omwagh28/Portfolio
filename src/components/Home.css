@@ -1,33 +1,105 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: hsl(313, 21%, 8%);
+  color: #ccd6f6;
+}
+
 .home-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: center;
+  align-items: center;
   height: 100vh;
-  background-color: hsl(313, 21%, 8%);
-  color: #ccd6f6;
-  text-align: center;
-  padding-left: 100px;
+  padding: 0 50px;
 }
 
-.home-container h1 {
+.navbar {
+  width: 100%;
+  background-color: hsl(313, 21%, 15%);
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline;
+}
+
+.navbar a {
+  color: #ccd6f6;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #64ffda;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center align content */
+  width: 100%;
+  margin-top: 60px; /* Ensure content is below the navbar */
+  padding: 0 50px; /* Add padding to the sides */
+}
+
+.text-content {
+  max-width: 60%;
+}
+
+.text-content h1 {
   font-size: 2.5rem;
   margin-bottom: 20px;
 }
 
-.home-container .name {
+.text-content .name {
   color: #64ffda;
   font-size: 3rem;
 }
 
-.home-container .description {
+.text-content .description {
   font-size: 1.5rem;
   margin-top: 10px;
+}
+
+.home-logo {
+  width: 300px; /* Increase image size */
+  height: 300px; /* Ensure the image stays round */
+  border-radius: 50%; /* Make the image round */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  object-position: top; /* Adjust this to ensure the head is visible */
+  margin-left: 60px; /* Increase space to move the image to the right */
 }
 
 .home-container .cursor {
   border-left: 2px solid #64ffda;
   animation: blink 0.7s step-end infinite;
+}
+
+.section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
 }
 
 @keyframes blink {
@@ -38,5 +110,3 @@
     border-color: #64ffda;
   }
 }
-
-

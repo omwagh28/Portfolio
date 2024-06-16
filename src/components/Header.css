@@ -37,6 +37,8 @@ nav ul li a {
   text-decoration: none;
   transition: color 0.3s;
   padding-bottom: 5px;
+  font-size: larger;
+  padding-left: 25px;
 }
 
 nav ul li a::after {
